@@ -1,19 +1,21 @@
 {
-  "name": "finnect-guard-mockup",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite --host 127.0.0.1 --port 7894 --strictPort",
-    "build": "vite build",
-    "build:pages": "vite build --base=/finnect/",
-    "preview": "vite preview --host 127.0.0.1 --port 4176 --strictPort"
-  },
-  "dependencies": {
-    "@vitejs/plugin-react": "^5.0.0",
-    "vite": "^7.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {}
+    "name":  "finnect-guard-mockup",
+    "version":  "0.1.0",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "vite --host 127.0.0.1 --port 7894 --strictPort",
+                    "build":  "vite build",
+                    "build:pages":  "vite build --base=/Finnect-mockup/",
+                    "preview":  "vite preview --host 127.0.0.1 --port 4176 --strictPort"
+                },
+    "dependencies":  {
+                         "@vitejs/plugin-react":  "^5.0.0",
+                         "vite":  "^7.0.0",
+                         "react":  "^19.0.0",
+                         "react-dom":  "^19.0.0"
+                     },
+    "devDependencies":  {
+
+                        }
 }
